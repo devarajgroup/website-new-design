@@ -1,65 +1,9 @@
-doctype html
-html(lang='en')
-  head
-    link(href="./bootstrap/css/bootstrap.min.css", rel="stylesheet")
-    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
-    script(src="./bootstrap/js/bootstrap.min.js")
-    
-    title UCSD Devaraj Lab
-  
-  body
-    nav(class='navbar navbar-default')
-      div(class='navbar-header')
-        button(type="button", class="navbar-toggle collapsed", data-toggle="collapse", data-target="#sitepaths" )
-          span(class="icon-bar")
-          span(class="icon-bar")
-          span(class="icon-bar")
-        a(class="navbar-brand") Devaraj Lab
-      
-      div(class="collapse navbar-collapse", id="sitepaths")
-        ul(class="nav navbar-nav navbar-right")
-          li
-            a(href="./") Home
-          li
-            a(href="./research") Research
-          li
-            a(href="./papers") Papers
-          li
-            a(href="./outreach") People
-          li
-            a(href="./news") News
-          li
-            a(href="./outreach") Outreach
-          li
-            a(href="./funding") Funding
+extends layout.jade
 
-    #myCarousel.carousel.slide(data-ride='carousel')
-      // Indicators
-      ol.carousel-indicators
-        li.active(data-target='#myCarousel', data-slide-to='0')
-        li(data-target='#myCarousel', data-slide-to='1')
-        li(data-target='#myCarousel', data-slide-to='2')
-      .carousel-inner
-        .item.active
-          img(src='http://www.joomlaworks.net/images/demos/galleries/abstract/7.jpg', alt='First slide')
-          .container
-            .carousel-caption
-              h1 Example headline.
-              p test
-        .item
-          img(src='http://www.joomlaworks.net/images/demos/galleries/abstract/7.jpg', alt='Second slide')
-          .container
-            .carousel-caption
-              h1 Example headline.
-              p test
-        .item
-          img(src='http://www.joomlaworks.net/images/demos/galleries/abstract/7.jpg', alt='Third slide')
-          .container
-            .carousel-caption
-              h1 Example headline.
-              p test
-      a.left.carousel-control(href='#myCarousel', role='button', data-slide='prev')
-        span.glyphicon.glyphicon-chevron-left
-      a.right.carousel-control(href='#myCarousel', role='button', data-slide='next')
-        span.glyphicon.glyphicon-chevron-right  
+block content
+
+  include resources/includes/picSlide.jade
+  
+  hr
+  
   

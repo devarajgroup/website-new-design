@@ -1,13 +1,13 @@
 .container-fluid
   .col-sm-2.col-md-3
   .col-sm-8.col-md-6
-    #myCarousel.carousel.slide(data-ride='carousel')
+    #slides.carousel.slide(data-ride='carousel')
       // Indicators
       ol.carousel-indicators
-        li.active(data-target='#myCarousel', data-slide-to='0')
-        li(data-target='#myCarousel', data-slide-to='1')
-        li(data-target='#myCarousel', data-slide-to='2')
-        li(data-target='#myCarousel', data-slide-to='3')
+        li.active(data-target='#slides', data-slide-to='0')
+        li(data-target='#slides', data-slide-to='1')
+        li(data-target='#slides', data-slide-to='2')
+        li(data-target='#slides', data-slide-to='3')
       .carousel-inner
 
         .item.active
@@ -22,7 +22,7 @@
         .item
           img(src='resources/slides/slide_4.jpg', alt='Equipment 2')
 
-      a.left.carousel-control(href='#myCarousel', role='button', data-slide='prev')
+      a.left.carousel-control(href='#slides', role='button', data-slide='prev')
         span.glyphicon.glyphicon-chevron-left
-      a.right.carousel-control(href='#myCarousel', role='button', data-slide='next')
+      a.right.carousel-control(href='#slides', role='button', data-slide='next')
         span.glyphicon.glyphicon-chevron-right

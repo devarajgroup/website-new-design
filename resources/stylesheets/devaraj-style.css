@@ -1,6 +1,11 @@
 body { padding-top: 70px; }
 
+a:hover{
+  text-decoration: none;
+}
+
 .devaraj-footer{
+  margin-top: 60px; 
   bottom:0;
   width:100%;
   background-color: #d0e8fb;

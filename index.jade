@@ -1,9 +1,28 @@
 extends layout.jade
 
+append head
+  link(href="resources/stylesheets/index.css", rel="stylesheet")
+
 block content
 
   include resources/includes/picSlide.jade
   
   hr
+  
+  .container
+    
+    // Latest news and about the lab
+    .col-sm-4.col-xs-12
+      
+      include resources/includes/index_includes/news.jade   
+      include resources/includes/index_includes/about.jade
+
+    // Research in focus
+    .col-sm-4.col-xs-12
+      include resources/includes/index_includes/research.jade
+      
+    // Selected publications
+    .col-sm-4.col-xs-12
+      include resources/includes/index_includes/selected_publications.jade
   
   

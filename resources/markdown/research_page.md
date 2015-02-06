@@ -1,5 +1,7 @@
 ###Research Overview
-As our molecular understanding of biology improves, new tools will be needed to further probe and understand life at the molecular length scale. Our interdisciplinary research group focuses on chemical biology with an emphasis on developing novel reactions for addressing questions in bottom-up synthetic biology and molecular imaging. Below we summarize some of our research interests
+As our molecular understanding of biology improves, new tools will be needed to further probe and understand life at the molecular length scale. Our interdisciplinary research group focuses on chemical biology with an emphasis on developing novel reactions for addressing questions in bottom-up synthetic biology and molecular imaging. Below we summarize some of our research interests.
+
+<img src="resources/images/research/vesicles.jpg" class="img-responsive">
 
 ###Hybrid Artificial Cells
 A major goal of our research program is to integrate synthetic and biological components to create a hybrid artificial cell. We propose to construct “minimal cells” in which only the necessary biochemical components are combined with a self-reproducing artificial chassis. These efforts will result in the development of a fully abiotic, dynamic “cell” with programmable genetic content. The proposed work will lay the groundwork for the development of scalable biomimetic systems that may one day surpass the functionality of fully biological constructs. Such advanced materials will find practical applications as bioreactors, sensors, and drug delivery vehicles.

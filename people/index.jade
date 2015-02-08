@@ -1,0 +1,56 @@
+extends ../layout.jade
+
+append head
+  link(href="resources/stylesheets/people.css", rel="stylesheet")
+
+mixin people(path, name, title, email)
+  .col-sm-3.col-xs-12.profile
+    img(src=path class="img-responsive img-rounded")
+    h5(style="margin-bottom:5px")= name
+    if title != ""
+      p.namecard= title
+    if email != ""
+      p.namecard.email= email
+    
+
+block content
+  .container.profile-container
+    .row
+      h3 FACULTY
+      hr
+      +people("resources/images/people/Neal.png", "Neal K. Devaraj", "Principal Investigator", "ndevaraj@ucsd.edu")
+    
+    .row
+      h3 POSTDOCTORAL FELLOWS
+      hr
+      +people("resources/images/people/roberto.png", "Roberto J. Brea", "", "rbreafernandez@ucsd.edu")
+      +people("resources/images/people/Fabian.jpg", "Fabian Ehret", "", "")
+      +people("resources/images/people/Seth.png", "Seth Alexander", "", "")
+      +people("resources/images/people/haoxing.png", "HaoXing Wu", "", "haw034@mail.ucsd.edu")
+    
+    .row
+      h3 GRADUATE STUDENTS
+      hr
+      +people("resources/images/people/brandon cisneros.png", "Brandon Cisneros", "", "brandon.cisneros@gmail.edu")
+      +people("resources/images/people/Christian Cole.png", "Christian Cole", "", "cmcole@ucsd.edu")
+      +people("resources/images/people/michael hardy.png", "Mike Hardy", "", "michaeldavidhardy@gmail.com")
+      +people("resources/images/people/AhanjitBhattacharya.jpg", "Ahanjit Bhattacharya", "", "")
+    .row
+      +people("resources/images/people/Andrew.png", "Andrew Rudd", "", "arudd@ucsd.edu")
+      +people("resources/images/people/eric.png", "Eric Zhou", "", "cyzhou@ucsd.edu")
+    
+    .row
+      h3 UNDERGRADUATES
+      hr
+      +people("resources/images/people/vikram.png", "Vikram Shenoy", "", "")
+      +people("resources/images/people/natalya.png", "Natalya Ballard", "", "nballard@ucsd.edu")
+      
+    .row
+      h3 ALUMNI
+      hr
+      p Jun Yang Professor, School of Chemistry and Chemical Engineering, Shaanxi Normal University 
+
+      p Jolita Šečkutė Scientist at Amgen in Drug Product Process Engineering 
+
+      p Brandon Nichols Research Scientist at Isis Pharmaceuticals
+      

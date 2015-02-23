@@ -3,7 +3,7 @@ extends ../layout.jade
 append head
   link(href="resources/stylesheets/people.css", rel="stylesheet")
 
-mixin people(path, name, title, email)
+mixin people(path, name, title, email, cv)
   .col-sm-3.col-xs-12.profile
     img(src=path class="img-responsive img-rounded")
     h5(style="margin-bottom:5px")= name
@@ -11,6 +11,9 @@ mixin people(path, name, title, email)
       p.namecard= title
     if email != ""
       p.namecard.email= email
+    if cv
+      a.btn.btn-primary.btn-block(href=cv) Curriculum Vitae
+      
     
 
 block content
@@ -18,7 +21,7 @@ block content
     .row
       h3 FACULTY
       hr
-      +people("resources/images/people/Neal.png", "Neal K. Devaraj", "Principal Investigator", "ndevaraj@ucsd.edu")
+      +people("resources/images/people/Neal.png", "Neal K. Devaraj", "Principal Investigator", "ndevaraj@ucsd.edu", "resources/cv/devaraj_cv.pdf")
     
     .row
       h3 POSTDOCTORAL FELLOWS

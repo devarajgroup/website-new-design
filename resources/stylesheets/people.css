@@ -1,0 +1,24 @@
+.profile {
+  float: left;
+}
+
+.namecard{
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+.email{
+  margin-bottom: 15px;
+}
+
+.profile-container{
+  max-width: 70%;
+  margin: auto;
+}
+
+.container img {
+    border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius: 10px;
+}

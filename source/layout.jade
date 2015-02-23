@@ -1,0 +1,27 @@
+doctype html
+html(lang='en')
+  head
+    base(href="http://devarajgroup.github.io/website-new-design/", target="_blank")
+    
+    //Bootstrap
+    link(href="bootstrap/css/bootstrap.min.css", rel="stylesheet")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
+    script(src="bootstrap/js/bootstrap.min.js")
+    
+    // Universal stylesheet for this website
+    link(href="resources/stylesheets/devaraj-style.css", rel="stylesheet")
+    
+    block head
+    
+    title UCSD Devaraj Lab
+  
+  body
+    
+    // Navigation bar    
+    include resources/includes/navbar.jade
+    
+    //Page content
+    block content
+
+    // Footer
+    include resources/includes/footer.jade

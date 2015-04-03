@@ -2,11 +2,11 @@
 
 ######[Free Access through Pub Med Central](http://www.ncbi.nlm.nih.gov/pmc/?term=Neal Devaraj)
 
-29. H. Wu, B. T. Cisneros, C. M. Cole, N. K. Devaraj "Bioorthogonal Tetrazine-Mediated Transfer Reactions Facilitate Reaction Turnover in the Nucleic Acid-Templated Detection of microRNA," *J. Am. Chem. Soc.*, 2014, 136(52), 17942-17945.
-
-28. R. J. Brea, C. M. Cole, N. K. Devaraj "In situ Vesicle Formation by Native Chemical Ligation," Angew. Chem. Int. Ed. , 2014, 53 (51), 14102-14105.
-
-27. H. Wu, J. Yang, J. Šečkutė, N. K. Devaraj "In-situ Synthesis of Alkenyl Tetrazines for Highly Fluorogenic Bioorthogonal Live Cell Imaging Probes," *Angew. Chem. Int. Ed.*, 2014, 53 (23), 5805-5809.
+<ol reversed>
+<li>H. Wu, B. T. Cisneros, C. M. Cole, N. K. Devaraj "Bioorthogonal Tetrazine-Mediated Transfer Reactions Facilitate Reaction Turnover in the Nucleic Acid-Templated Detection of microRNA," *J. Am. Chem. Soc.*, 2014, 136(52), 17942-17945.</li>
+<li>R. J. Brea, C. M. Cole, N. K. Devaraj "In situ Vesicle Formation by Native Chemical Ligation," *Angew. Chem. Int. Ed.*, 2014, 53 (51), 14102-14105.</li>
+<li>H. Wu, J. Yang, J. Šečkutė, N. K. Devaraj "In-situ Synthesis of Alkenyl Tetrazines for Highly Fluorogenic Bioorthogonal Live Cell Imaging Probes," *Angew. Chem. Int. Ed.*, 2014, 53 (23), 5805-5809.</li>
+</ol>
 
 26. B. Nichols, Z. Qin, J. Yang, D. R. Vera, N. K. Devaraj "68Ga Chelating Bioorthogonal Tetrazine Polymers for the Multistep labeling of Cancer Biomarkers," *Chem. Comm.*, 2014, 50 (40), 5215-5217.
 
